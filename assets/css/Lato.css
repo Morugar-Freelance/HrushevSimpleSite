@@ -7,6 +7,14 @@
 	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
+details {
+	text-decoration: none;
+}
+
+details summary::-webkit-details-marker {
+	display:none;
+}
+
 @font-face {
 	font-family: 'Lato';
 	src: url(../../assets/fonts//s/lato/v23/S6u9w4BMUTPHh7USSwiPGQ.woff2?h=e6deea6ba24ff06bac99e87169d9ac65) format('woff2');
